@@ -1,0 +1,15 @@
+:root {
+  --toska: #3c8483;
+  --blue: #248dcf;
+  --orange: #f7921c;
+}
+
+@import "./header.css";
+@import "./button.css";
+@import "./login.css";
+@import "./footer.css";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
