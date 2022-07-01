@@ -1,39 +1,45 @@
-.login {
+.register {
     padding: 1rem 1.5rem;
+
+}
+
+.register > h1, .register > p {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+
+.register__wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.login a {
-    text-decoration: none;
-}
-
-.login__left {
+.register__left {
     width: 50%;
     height: 450px;
 }
 
-.login__left > img {
+.register__left > img {
     width: 100%;
     height: inherit;
 }
 
-.login__right {
+.register__right {
     width: 45%;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
-.login__right > h1 {
+.register__right > h1 {
     margin-bottom: 1rem;
 }
 
-.login__right > label {
+.register__right > label {
     font-weight: bold;
 }
 
-.login__right > input {
+.register__right > input {
     width: 100%;
     margin: 1rem 0;
     padding: 1rem 0.5rem;
@@ -42,17 +48,7 @@
     outline-color: grey;
 }
 
-.login__right > p {
+.register__right > p {
     padding: 1rem 0;
-    text-align: center;
-}
-
-.login__right > p:nth-of-type(2) {
-    color: var(--orange);
-}
-
-.login__right > a > p:last-of-type {
-    padding: 0;
-    color: var(--orange);
     text-align: center;
 }

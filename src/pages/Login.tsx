@@ -1,16 +1,19 @@
-import { ChangeEvent} from "react"
+import { ChangeEvent } from "react"
+import { Link } from "react-router-dom"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import TextButton from "../components/TextButton"
-import { useAppDispatch, useAppSelector } from '../hooks/index'
+import { useAppDispatch, useAppSelector } from "../hooks/index"
 import { logined } from "../slices/login-slice"
 
 const Login = () => {
-  const message = useAppSelector(state => state.login.message)
+  const message = useAppSelector((state) => state.login.message)
+  const users = useAppSelector((state) => state.user.users)
   const dispatch = useAppDispatch()
   let dataForm = {
-    username: '',
-    password: ''
+    username: "",
+    password: "",
+    users: users
   }
 
   const onChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -22,7 +25,6 @@ const Login = () => {
 
   const onSubmit = () => {
     dispatch(logined(dataForm))
-    
   }
 
   return (
@@ -34,9 +36,10 @@ const Login = () => {
         </div>
         <div className="login__right">
           <h1>Masuk</h1>
-          <p>
-            {message}
-          </p>
+          {users.map((user) => {
+            return <p>{user.username}</p>
+          })}
+          <p>{message}</p>
           <label htmlFor="username">Alamat Email Atau Username</label>
           <input
             type="text"
@@ -53,10 +56,16 @@ const Login = () => {
             placeholder="Kata Sandi Anda"
             onChange={onChange}
           />
-          <TextButton className="text-button" label="Masuk" onClick={onSubmit} />
+          <TextButton
+            className="text-button"
+            label="Masuk"
+            onClick={onSubmit}
+          />
           <p>Lupa Kata Sandi</p>
           <p>Belum Mempunyai Akun?</p>
-          <p>Daftar</p>
+          <Link to={'/register'}>
+            <p>Daftar</p>
+          </Link>
         </div>
       </div>
       <Footer />

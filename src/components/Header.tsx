@@ -1,6 +1,9 @@
-import OutlineButton from './OutlineButton'
-import TextButton from './TextButton'
+import OutlineButton from "./OutlineButton"
+import TextButton from "./TextButton"
+import { useLocation } from "react-router-dom"
 const Header = () => {
+  const location = useLocation()
+
   return (
     <div className="header">
       <div className="header__layer-1">
@@ -11,18 +14,26 @@ const Header = () => {
           <li>Blog</li>
         </ul>
       </div>
-      <div className="header__layer-2">
-        <ul className="header__layer-2__left">
-            <li><img src="/favicon.ico" alt="icon" /></li>
+      {location.pathname != "/register" && (
+        <div className="header__layer-2">
+          <ul className="header__layer-2__left">
+            <li>
+              <img src="/favicon.ico" alt="icon" />
+            </li>
             <li>Informasi</li>
             <li>Cleaning</li>
             <li>Insurance</li>
-        </ul>
-        <ul className="header__layer-2__right">
-            <li><OutlineButton label='Masuk' className='outline-button' /></li>
-            <li><TextButton label='Ajukan Pembiayaan' className='text-button' /></li>
-        </ul>
-      </div>
+          </ul>
+          <ul className="header__layer-2__right">
+            <li>
+              <OutlineButton label="Masuk" className="outline-button" />
+            </li>
+            <li>
+              <TextButton label="Ajukan Pembiayaan" className="text-button" />
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   )
 }
