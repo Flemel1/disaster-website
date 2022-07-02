@@ -9,14 +9,21 @@
     width: 50%;
     display: flex;
     justify-content: space-around;
+    color: var(--orange);
 }
 
 .partner__wrapper {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .partner__card {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+}
+
+.partner__card > img {
+    width: inherit;
+    height: inherit;
 }

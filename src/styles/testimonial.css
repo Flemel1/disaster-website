@@ -25,6 +25,10 @@
     line-height: 1.5rem;
 }
 
+.testimonial__card__user > h3 {
+    margin: 0.5rem 0;
+}
+
 .testimonial__card__user > img {
     width: 25%;
     height: 200px;

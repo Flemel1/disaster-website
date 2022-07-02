@@ -9,7 +9,7 @@ const DisasterInformation = () => {
             <Stepper />
         </div>
         <div className="information__right">
-            <img src="/favicon.ico" alt="icon" />
+            <img src="/megaphone.png" alt="icon" />
         </div>
     </div>
   )

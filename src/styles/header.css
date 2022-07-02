@@ -2,6 +2,11 @@
   list-style: none;
 }
 
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
 .header__layer-1,
 .header__layer-2 {
   padding: 1rem 1.5rem;

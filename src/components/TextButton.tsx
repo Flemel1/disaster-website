@@ -4,11 +4,11 @@ const TextButton = ({ className, label, onClick }: ButtonProps) => {
   return (
     <>
       {onClick ? (
-        <button className={className} onClick={onClick}>
+        <button type="button" className={className} onClick={onClick}>
           {label}
         </button>
       ) : (
-        <button className={className}>{label}</button>
+        <button type="button" className={className}>{label}</button>
       )}
     </>
   )

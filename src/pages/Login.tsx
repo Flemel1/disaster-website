@@ -32,7 +32,7 @@ const Login = () => {
       <Header />
       <div className="login">
         <div className="login__left">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/logo-2.png" alt="icon" />
         </div>
         <div className="login__right">
           <h1>Masuk</h1>
@@ -57,7 +57,7 @@ const Login = () => {
             onChange={onChange}
           />
           <TextButton
-            className="text-button"
+            className="text-button-100"
             label="Masuk"
             onClick={onSubmit}
           />

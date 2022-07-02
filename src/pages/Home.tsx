@@ -5,6 +5,7 @@ import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Map from "../components/Map"
 import Partner from "../components/Partner"
+import Schedule from "../components/Schedule"
 import Services from "../components/Services"
 import Testimonial from "../components/Testimonial"
 
@@ -18,6 +19,7 @@ const Home = () => {
         <Map />
         <DisasterInformation />
         <Testimonial />
+        <Schedule />
         <Partner />
         <CTA />
       </div>

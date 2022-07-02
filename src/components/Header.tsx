@@ -1,6 +1,6 @@
 import OutlineButton from "./OutlineButton"
 import TextButton from "./TextButton"
-import { useLocation } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 const Header = () => {
   const location = useLocation()
 
@@ -18,15 +18,15 @@ const Header = () => {
         <div className="header__layer-2">
           <ul className="header__layer-2__left">
             <li>
-              <img src="/favicon.ico" alt="icon" />
+              <img src="/logo.png" alt="icon" />
             </li>
-            <li>Informasi</li>
+            <li><Link to={'/'}>Informasi</Link></li>
             <li>Cleaning</li>
             <li>Insurance</li>
           </ul>
           <ul className="header__layer-2__right">
             <li>
-              <OutlineButton label="Masuk" className="outline-button" />
+              <Link to={'/login'}><OutlineButton label="Masuk" className="outline-button" /></Link>
             </li>
             <li>
               <TextButton label="Ajukan Pembiayaan" className="text-button" />

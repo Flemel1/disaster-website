@@ -5,6 +5,9 @@
   --yellow: #fff2d0;
   --size: 2rem;
   --spacing: 0.5rem;
+  --border-10: 10px;
+  --toska-green: #0e3032;
+  --grey: #cccdcf;
 }
 
 @import "./header.css";
@@ -21,6 +24,7 @@
 @import "./testimonial.css";
 @import "./partner.css";
 @import "./cta.css";
+@import "./schedule.css";
 
 * {
   margin: 0;

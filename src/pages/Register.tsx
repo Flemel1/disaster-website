@@ -43,7 +43,7 @@ const Register = () => {
         })}
         <div className="register__wrapper">
           <div className="register__left">
-            <img src="/favicon.ico" alt="icon" />
+            <img src="/logo-2.png" alt="icon" />
           </div>
           <div className="register__right">
             <label htmlFor="username">Username</label>
@@ -79,7 +79,7 @@ const Register = () => {
               onChange={onChange}
             />
             <TextButton
-              className="text-button"
+              className="text-button-100"
               label="Daftar"
               onClick={onSubmit}
             />

@@ -9,46 +9,34 @@ const Partner = () => {
       </div>
       <div className="partner__wrapper">
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-1.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-2.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-3.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-4.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-5.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-6.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-7.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-8.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-9.png" alt="icon" />
         </div>
         <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
-        </div>
-        <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
-        </div>
-        <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
-        </div>
-        <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
-        </div>
-        <div className="partner__card">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/mitra-10.png" alt="icon" />
         </div>
       </div>
     </div>

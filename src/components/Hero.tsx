@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import TextButton from "./TextButton"
 
 const Hero = () => {
@@ -10,10 +11,10 @@ const Hero = () => {
           disekitar lokasi anda. ChiFlo juga memberikan pelayanan seputar jasa
           pembersihan pasca banjir dan Asuransi barang berharga.
         </p>
-        <TextButton className="text-button" label="Register" />
+        <Link to={'/register'}><TextButton className="text-button" label="Register" /></Link>
       </div>
       <div className="hero__right">
-        <img src="/favicon.ico" alt="icon" />
+        <img src="/hero.png" alt="icon" />
       </div>
     </div>
   )

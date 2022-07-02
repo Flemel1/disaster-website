@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__layer-1">
         <div className="footer__layer-1__content-1">
-          <img src="/favicon.ico" alt="icon" />
+          <img src="/logo.png" alt="icon" />
           <h4>Hubungi Kami</h4>
           <ul>
             <li>ChiFlo Help You Anytime</li>
@@ -14,13 +14,13 @@ const Footer = () => {
             <li className="footer__layer-1__content-1__icons">
               <ul>
                 <li>
-                  <img src="/favicon.ico" alt="icon" />
+                  <img src="/instagram-icon.png" alt="icon" />
                 </li>
                 <li>
-                  <img src="/favicon.ico" alt="icon" />
+                  <img src="/linkedin-icon.png" alt="icon" />
                 </li>
                 <li>
-                  <img src="/favicon.ico" alt="icon" />
+                  <img src="/youtube-icon.png" alt="icon" />
                 </li>
               </ul>
             </li>

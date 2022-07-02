@@ -1,5 +1,5 @@
 .cta {
-    margin: 1rem 0;
+    margin: 2rem 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: var(--yellow);
@@ -8,4 +8,9 @@
 .cta > h2, .cta > p {
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.cta > .text-button {
+    position: relative;
+    left: 43%;
 }
