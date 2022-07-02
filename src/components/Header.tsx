@@ -20,9 +20,9 @@ const Header = () => {
             <li>
               <img src="/logo.png" alt="icon" />
             </li>
-            <li><Link to={'/'}>Informasi</Link></li>
+            <li><Link to={'/home'}>Informasi</Link></li>
             <li>Cleaning</li>
-            <li>Insurance</li>
+            <li><Link to={'/insurance'}>Insurance</Link></li>
           </ul>
           <ul className="header__layer-2__right">
             <li>

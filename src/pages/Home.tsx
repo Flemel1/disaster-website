@@ -10,11 +10,13 @@ import Services from "../components/Services"
 import Testimonial from "../components/Testimonial"
 
 const Home = () => {
+  const title = "Portal Informasi Banjir di Sekitar Anda"
+  const subtitle = "ChiFlo merupakan portal informasi seputar banjir yang terjadi disekitar lokasi anda. ChiFlo juga memberikan pelayanan seputar jasa pembersihan pasca banjir dan Asuransi barang berharga."
   return (
     <>
       <Header />
       <div className="home">
-        <Hero />
+        <Hero title={title} subtitle={subtitle} imageUrl={'/hero.png'} button={true} />
         <Services />
         <Map />
         <DisasterInformation />

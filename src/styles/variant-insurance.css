@@ -1,0 +1,29 @@
+.varian-insurance {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.varian-insurance__wrapper {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.varian-insurance__card {
+  padding: 1rem;
+  background: linear-gradient(
+    222.78deg,
+    #dddeaa -6.12%,
+    rgba(217, 217, 217, 0) 153.42%
+  );
+  border-radius: var(--border-10);
+}
+
+.varian-insurance__card > h3 {
+  margin: 1rem 0;
+}
+
+.varian-insurance__card > p {
+  line-height: 1.5rem;
+}
