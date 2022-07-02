@@ -1,0 +1,31 @@
+.testimonial {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.testimonial > h2 {
+    margin-bottom: 1rem;
+}
+
+.testimonial > p {
+    margin-bottom: 1rem;
+}
+
+.testimonial__card {
+    margin: auto;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial__card > p {
+    width: 50%;
+    line-height: 1.5rem;
+}
+
+.testimonial__card__user > img {
+    width: 25%;
+    height: 200px;
+}

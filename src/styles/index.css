@@ -2,6 +2,9 @@
   --toska: #3c8483;
   --blue: #248dcf;
   --orange: #f7921c;
+  --yellow: #fff2d0;
+  --size: 2rem;
+  --spacing: 0.5rem;
 }
 
 @import "./header.css";
@@ -9,6 +12,15 @@
 @import "./login.css";
 @import "./footer.css";
 @import "./register.css";
+@import "./hero.css";
+@import "./home.css";
+@import "./service.css";
+@import "./map.css";
+@import "./information.css";
+@import "./stepper.css";
+@import "./testimonial.css";
+@import "./partner.css";
+@import "./cta.css";
 
 * {
   margin: 0;

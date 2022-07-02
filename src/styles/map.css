@@ -1,0 +1,17 @@
+.map {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.map > h2 {
+    margin-bottom: 1rem;
+}
+
+.map > p {
+    margin-bottom: 1rem;
+}
+
+.map > img {
+    width: 50%;
+    height: 400px;
+}

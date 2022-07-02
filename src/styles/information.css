@@ -1,0 +1,18 @@
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__left {
+    width: 50%;
+}
+
+.information__right {
+    width: 50%;
+}
+
+.information__right > img {
+    position: relative;
+    width: 50%;
+    left: 50%;
+}
